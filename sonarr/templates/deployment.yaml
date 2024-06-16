@@ -80,7 +80,7 @@ spec:
       volumes:
       - name: config-volume
         configMap:
-          name: special-config
+          name: sonarr-config.xml
       - name: config
         {{- if .Values.persistence.config.enabled }}
         persistentVolumeClaim:
