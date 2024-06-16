@@ -34,7 +34,7 @@ The following tables lists the configurable parameters of the Sentry chart and t
 | Parameter                              | Description                                                                                   | Default               |
 | -------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------- |
 | `image.repository`                     | Image repository                                                                              | `linuxserver/sabnzbd` |
-| `image.tag`                            | Image tag. Possible values listed [here](https://hub.docker.com/r/linuxserver/sabnzbd/tags/). | `amd64-latest`        |
+| `image.tag`                            | Image tag. Possible values listed [here](https://hub.docker.com/r/linuxserver/sabnzbd/tags/). | `latest`        |
 | `image.pullPolicy`                     | Image pull policy                                                                             | `Always`              |
 | `strategyType`                         | Specifies the strategy used to replace old Pods by new ones                                   | `Recreate`            |
 | `timezone`                             | Timezone the sabnzbd instance should run as, e.g. 'America/New_York'                          | `UTC`                 |

@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: linuxserver/lidarr
-  tag: amd64-latest
+  tag: latest
   pullPolicy: Always
 
 strategyType: Recreate

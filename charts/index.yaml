@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   bazarr:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.882933+10:00"
     description: Bazarr is a companion application to Sonarr and Radarr. It manages
       and downloads subtitles based on your requirements.
@@ -23,7 +23,7 @@ entries:
     version: 1.0.0
   couchpotato:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.887447+10:00"
     description: Automatic Movie Downloading via NZBs & Torrents
     digest: 90aa7b634f9024db945713a9e75d1478aa474ac8bf6168bd9830d76bc17a1187
@@ -43,7 +43,7 @@ entries:
     version: 1.0.0
   headphones:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.888715+10:00"
     description: Headphones is an automatic music downloader for SABnzbd
     digest: 1202b1ca465676683667dd046eb36a2f5f4effb90c9453be51084735be1f6835
@@ -63,7 +63,7 @@ entries:
     version: 1.0.0
   jackett:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.889795+10:00"
     description: API Support for your favorite torrent trackers.
     digest: 47c81e838ec95ba08fffb0b03cd9220fc5fe0e6ff4818650810d886624a26e22
@@ -82,7 +82,7 @@ entries:
     version: 1.0.0
   lazylibrarian:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.890837+10:00"
     description: LazyLibrarian is a SickBeard, CouchPotato, Headphones-like application
       for ebooks, audiobooks and magazines
@@ -103,7 +103,7 @@ entries:
     version: 1.0.0
   lidarr:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.891841+10:00"
     description: Looks and smells like Sonarr but made for music.
     digest: b3bf439592d39cd56109cbf27d86102407d26d8993dda64ad5350b123035becf
@@ -123,7 +123,7 @@ entries:
     version: 1.0.0
   medusa:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.892838+10:00"
     description: Automatic Video Library Manager for TV Shows. It watches for new
       episodes of your favorite shows, and when they are posted it does its magic.
@@ -143,7 +143,7 @@ entries:
     version: 1.0.0
   mylar:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.894102+10:00"
     description: Radarr is a comic book downloading client
     digest: 02b6681ad6722c0d702fde130d4dff1a5d366055977f6ffd7e35488af1130fe9
@@ -163,7 +163,7 @@ entries:
     version: 1.0.0
   nzbget:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.895458+10:00"
     description: nzbget makes Usenet as simple and streamlined as possible by automating
       everything we can.
@@ -183,7 +183,7 @@ entries:
     version: 1.0.0
   nzbhydra2:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.896885+10:00"
     description: Usenet meta search
     digest: 7d33606067fb774a841af76997c13bb944d6513063cee84683ec95e767e6b23b
@@ -222,7 +222,7 @@ entries:
     version: 1.0.0
   radarr:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.90013+10:00"
     description: Radarr is a movie downloading client
     digest: cb6546122fc2104386de42b4f9ec075914f00d7448eaab930a3271ef8a7f75dd
@@ -242,7 +242,7 @@ entries:
     version: 1.0.0
   sabnzbd:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.903512+10:00"
     description: Sabnzbd makes Usenet as simple and streamlined as possible by automating
       everything we can.
@@ -263,7 +263,7 @@ entries:
     version: 1.0.0
   sonarr:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.904846+10:00"
     description: Sonarr is a television show downloading client
     digest: d85443df5677238bcd4e1fbd9314841acfaf42dca12937c6302d9ce7587e737a
@@ -283,7 +283,7 @@ entries:
     version: 1.0.0
   syncthing:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.906837+10:00"
     description: Continuous file synchronization program.
     digest: 82353d0dea0257fb565e285bab5bbe8dfe6bcb0485e93c4c0de0e7b9c7e94479
@@ -302,7 +302,7 @@ entries:
     version: 1.0.0
   transmission:
   - apiVersion: v2
-    appVersion: amd64-latest
+    appVersion: latest
     created: "2020-08-26T16:15:57.908478+10:00"
     description: A fast, easy and free Bittorrent client.
     digest: 06a6bdf869674e7dcd65354337ce435cd4ea84f7927144dfa14643bf02ef2543
