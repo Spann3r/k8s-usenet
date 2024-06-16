@@ -68,6 +68,8 @@ spec:
             {{- if .Values.persistence.tv.subPath }}
               subPath: {{ .Values.persistence.tv.subPath }}
             {{- end }}
+            - mountPath: /config
+              name: config-volume
             {{- range .Values.persistence.extraExistingClaimMounts }}
             - name: {{ .name }}
               mountPath: {{ .mountPath }}
@@ -76,6 +78,9 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       volumes:
+      - name: config-volume
+        configMap:
+          name: special-config
       - name: config
         {{- if .Values.persistence.config.enabled }}
         persistentVolumeClaim:
