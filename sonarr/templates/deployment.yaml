@@ -53,7 +53,7 @@ spec:
             timeoutSeconds: {{ .Values.probes.readiness.timeoutSeconds }}
             failureThreshold: {{ .Values.probes.readiness.failureThreshold }}
           volumeMounts:
-            - mountPath: /config
+            - mountPath: /config2
               name: config
               {{- if .Values.persistence.config.subPath }}
               subPath: {{ .Values.persistence.config.subPath }}
