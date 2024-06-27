@@ -16,6 +16,23 @@ metadata:
     {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
+{{- if .Values.ingress.ingressClassName }}
+  ingressClassName: {{ . }} 
+{{- end }}
+  rules:
+  {{- range .Values.ingress.hosts }}
+    - host: {{ .host | quote }}
+      http:
+        paths:
+        {{- range .paths }}
+          - pathType: {{ .pathType | quote }}
+            path: {{ .path | quote }}
+            backend:
+              service:
+                name: {{ $fullName }}
+                port:
+                  number: 80
+  {{- end }}
 {{- if .Values.ingress.tls }}
   tls:
   {{- range .Values.ingress.tls }}
@@ -26,19 +43,4 @@ spec:
       secretName: {{ .secretName }}
   {{- end }}
 {{- end }}
-  rules:
-  {{- range .Values.ingress.hosts }}
-    - host: {{ .host | quote }}
-      http:
-        paths:
-        {{- range .paths }}
-          - path: /
-            pathtype: Prefix
-            backend:
-              service:
-                name: {{ $fullName }}
-                port:
-                  number: http
-        {{- end }}
-  {{- end }}
 {{- end }}
