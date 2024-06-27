@@ -32,6 +32,7 @@ spec:
                 name: {{ $fullName }}
                 port:
                   number: 80
+        {{- end }}
   {{- end }}
 {{- if .Values.ingress.tls }}
   tls:
