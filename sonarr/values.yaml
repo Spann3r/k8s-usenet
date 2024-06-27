@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: linuxserver/sonarr
-  tag: latest
+  tag: amd64-latest
   pullPolicy: Always
 
 strategyType: Recreate
@@ -104,7 +104,7 @@ ingress:
 
 persistence:
   config:
-    enabled: false
+    enabled: true
     ## sonarr configuration data Persistent Volume Storage Class
     ## If defined, storageClassName: <storageClass>
     ## If set to "-", storageClassName: "", which disables dynamic provisioning
