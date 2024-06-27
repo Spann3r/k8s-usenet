@@ -32,10 +32,12 @@ spec:
       http:
         paths:
         {{- range .paths }}
-          - path: {{ . }}
+          - path: /
+            pathtype: Prefix
             backend:
-              serviceName: {{ $fullName }}
-              servicePort: http
+              service:
+                name: {{ $fullName }}
+                service: http
         {{- end }}
   {{- end }}
 {{- end }}
